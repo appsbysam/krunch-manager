@@ -1,9 +1,9 @@
 {
-  "version": "0.3.4",
+  "version": "0.3.5",
   "released": "2026-11-01",
   "notes": [
-    "Budget breakdown by fit-out area",
-    "Progress bars and completion rates by area",
-    "Item sorting and filter reset"
+    "Tap entire item to edit",
+    "Prevent keyboard from appearing when editor opens",
+    "Compact aligned status indicators"
   ]
 }
