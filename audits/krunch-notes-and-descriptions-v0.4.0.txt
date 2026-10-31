@@ -1,0 +1,1165 @@
+KRUNCH MANAGER — ITEM DESCRIPTION & NOTES CHANGE LOG
+Version 0.4.0 | 1 November 2026
+Original records: 72
+All original notes are preserved below. No financial figures were changed.
+
+============================================================
+RECORD: PLAN-010 | Item
+BEFORE NAME: 75-inch back-wall TV
+AFTER NAME: 75-inch back-wall TV
+BEFORE NOTES:
+ID: PLAN-010
+Category: Planning / Fit-out
+Priority: Medium
+Purchase Status: Not confirmed
+GST Basis: Unknown
+Source: KRUNCH Planning.docx
+Linked / Possible Duplicate: K024
+Details / Notes: 75” TV | Tv & bracket | LG 75" QNED70B AI Mini-LED 4K Smart TV [2026]
+AFTER NOTES:
+75” TV | Tv & bracket | LG 75" QNED70B AI Mini-LED 4K Smart TV [2026]
+Linked / Possible Duplicate: K024
+
+============================================================
+RECORD: K046 | Item
+BEFORE NAME: Additional back-of-house stainless steel shelving
+AFTER NAME: Additional stainless steel shelving
+BEFORE NOTES:
+ID: K046
+Category: Equipment
+Priority: Medium
+Purchase Status: Not confirmed
+Qty: 1
+GST Basis: Unknown
+Source: Existing expenditure workbook
+Details / Notes: Additional back-of-house stainless steel shelving — rod/wire or solid shelves | Walk through back area, identify usable space and measure; buy only where necessary. Lower priority. | Progress: Nice to Have | Priority: Low
+AFTER NOTES:
+rod/wire or solid shelves | Walk through back area, identify usable space and measure; buy only where necessary. Lower priority.
+
+============================================================
+RECORD: K045 | Item
+BEFORE NAME: Antibacterial shelving for cool room and freezer room
+AFTER NAME: Antibacterial shelving for cool room and freezer room
+BEFORE NOTES:
+ID: K045
+Category: Equipment
+Priority: Medium
+Purchase Status: Not confirmed
+Qty: 1
+GST Basis: Unknown
+Source: Existing expenditure workbook
+Details / Notes: Measure both rooms; compare AGC (brand/model to confirm), Mantova and Brayco premium shelving. Confirm food-safe materials, freezer compatibility and quantities. | Progress: Quote Required | Priority: Medium
+AFTER NOTES:
+Measure both rooms; compare AGC (brand/model to confirm), Mantova and Brayco premium shelving. Confirm food-safe materials, freezer compatibility and quantities.
+
+============================================================
+RECORD: K027 | Item
+BEFORE NAME: Artificial plants and decorative greenery
+AFTER NAME: Artificial plants and decorative greenery
+BEFORE NOTES:
+ID: K027
+Category: Cafe Walls
+Priority: Medium
+Purchase Status: Not confirmed
+Qty: 1
+GST Basis: Unknown
+Source: Existing expenditure workbook
+Details / Notes: Allowance placeholder; quantities, placement and price TBC. | Progress: Researching | Priority: Medium
+AFTER NOTES:
+Allowance placeholder; quantities, placement and price TBC.
+
+============================================================
+RECORD: K018 | Item
+BEFORE NAME: Back office stock storage shelving
+AFTER NAME: Stock storage shelving
+BEFORE NOTES:
+ID: K018
+Category: Equipment
+Priority: Medium
+Purchase Status: Not confirmed
+Qty: 1
+GST Basis: Unknown
+Source: Existing expenditure workbook
+Details / Notes: Shelving quantity and measurements TBC. | Progress: Researching | Priority: Medium
+AFTER NOTES:
+Shelving quantity and measurements TBC.
+
+============================================================
+RECORD: K021 | Task
+BEFORE NAME: Back-of-house light fittings
+AFTER NAME: Light fittings
+BEFORE NOTES:
+ID: K021
+Category: Other Fit-out
+Priority: Medium
+Purchase Status: Not confirmed
+Qty: 1
+GST Basis: Unknown
+Source: Existing expenditure workbook
+Details / Notes: Back-of-house light fittings — replace faulty and improve brightness | Count, dimensions and electrical requirements TBC. | Progress: Researching | Priority: Medium
+AFTER NOTES:
+replace faulty and improve brightness | Count, dimensions and electrical requirements TBC.
+
+============================================================
+RECORD: PLAN-011 | Item
+BEFORE NAME: Back-wall decorative panels
+AFTER NAME: Back-wall decorative panels
+BEFORE NOTES:
+ID: PLAN-011
+Category: Planning / Fit-out
+Priority: Medium
+Purchase Status: Not confirmed
+GST Basis: Unknown
+Source: KRUNCH Planning.docx
+Linked / Possible Duplicate: K040
+Details / Notes: Wall panels – 2700 high x 1200 wide | Dakeeta – 4 sheets
+AFTER NOTES:
+Wall panels – 2700 high x 1200 wide | Dakeeta – 4 sheets
+Linked / Possible Duplicate: K040
+
+============================================================
+RECORD: PLAN-012 | Item
+BEFORE NAME: Back-wall hanging greenery
+AFTER NAME: Back-wall hanging greenery
+BEFORE NOTES:
+ID: PLAN-012
+Category: Planning / Fit-out
+Priority: Medium
+Purchase Status: Not confirmed
+GST Basis: Unknown
+Source: KRUNCH Planning.docx
+Linked / Possible Duplicate: K027
+Details / Notes: Hanging greenery x 2 | 2 hanging baskets
+AFTER NOTES:
+Hanging greenery x 2 | 2 hanging baskets
+Linked / Possible Duplicate: K027
+
+============================================================
+RECORD: K001 | Item
+BEFORE NAME: Bain-marie 1500 mm
+AFTER NAME: Bain-marie 1500 mm
+BEFORE NOTES:
+ID: K001
+Category: Equipment
+Priority: Medium
+Purchase Status: Not confirmed
+Qty: 1
+GST Basis: Unknown
+Source: Existing expenditure workbook
+Details / Notes: Thermaster Wet and Dry Bain Marie Display 4x1/1 GN Pans - PG150FE-XG | Model: PG150FE-XG | Progress: Researching | Priority: Medium
+AFTER NOTES:
+Thermaster Wet and Dry Bain Marie Display 4x1/1 GN Pans - PG150FE-XG | Model: PG150FE-XG
+
+============================================================
+RECORD: PLAN-004 | Item
+BEFORE NAME: Chairs
+AFTER NAME: Chairs
+BEFORE NOTES:
+ID: PLAN-004
+Category: Planning / Fit-out
+Priority: Medium
+Purchase Status: Not confirmed
+GST Basis: Unknown
+Source: KRUNCH Planning.docx
+Linked / Possible Duplicate: K054
+Details / Notes: Use existing indoor chairs | None
+AFTER NOTES:
+Use existing indoor chairs | None
+Linked / Possible Duplicate: K054
+
+============================================================
+RECORD: K042 | Task
+BEFORE NAME: Coffee counter plumbing
+AFTER NAME: Coffee counter plumbing
+BEFORE NOTES:
+ID: K042
+Category: Other Fit-out
+Priority: Medium
+Purchase Status: Not confirmed
+Qty: 1
+GST Basis: Unknown
+Source: Existing expenditure workbook
+Details / Notes: Coffee counter plumbing — supply line from rear sink and possible drainage | High priority for coffee counter; check route, water supply, waste drainage and licensed plumber quote. | Progress: Quote Required | Priority: Medium
+AFTER NOTES:
+supply line from rear sink and possible drainage | High priority for coffee counter; check route, water supply, waste drainage and licensed plumber quote.
+
+============================================================
+RECORD: K011 | Item
+BEFORE NAME: Coffee grinder
+AFTER NAME: Coffee grinder
+BEFORE NOTES:
+ID: K011
+Category: Equipment
+Priority: Medium
+Purchase Status: Not confirmed
+Qty: 1
+GST Basis: Unknown
+Source: Existing expenditure workbook
+Details / Notes: Coffee grinder — model TBC | Quantity provisional; price TBC. | Progress: Researching | Priority: Medium
+AFTER NOTES:
+model TBC | Quantity provisional; price TBC.
+
+============================================================
+RECORD: K002 | Item
+BEFORE NAME: Cold bar 1500 mm
+AFTER NAME: Cold bar 1500 mm
+BEFORE NOTES:
+ID: K002
+Category: Equipment
+Priority: Medium
+Purchase Status: Not confirmed
+Qty: 1
+GST Basis: Unknown
+Source: Existing expenditure workbook
+Details / Notes: Thermaster Cold Salad & Noodle Bar 4x1/1 GN Pans PG150FA-XG | Model: PG150FA-XG | Progress: Researching | Priority: Medium
+AFTER NOTES:
+Thermaster Cold Salad & Noodle Bar 4x1/1 GN Pans PG150FA-XG | Model: PG150FA-XG
+
+============================================================
+RECORD: K003 | Item
+BEFORE NAME: Cold bar 2100 mm
+AFTER NAME: Cold bar 2100 mm
+BEFORE NOTES:
+ID: K003
+Category: Equipment
+Priority: Medium
+Purchase Status: Not confirmed
+Qty: 1
+GST Basis: Unknown
+Source: Existing expenditure workbook
+Details / Notes: Thermaster Cold Salad & Noodle Bar 4x1/1 GN Pans PG210FA-XG | Model: PG210FA-XG | Progress: Researching | Priority: Medium
+AFTER NOTES:
+Thermaster Cold Salad & Noodle Bar 4x1/1 GN Pans PG210FA-XG | Model: PG210FA-XG
+
+============================================================
+RECORD: K009 | Item
+BEFORE NAME: Commercial blender
+AFTER NAME: Commercial blender
+BEFORE NOTES:
+ID: K009
+Category: Equipment
+Priority: Medium
+Purchase Status: Not confirmed
+Qty: 1
+GST Basis: Unknown
+Source: Existing expenditure workbook
+Details / Notes: Commercial blender — model and final quantity TBC | Provisional minimum quantity 1; price TBC. | Progress: Researching | Priority: Medium
+AFTER NOTES:
+model and final quantity TBC | Provisional minimum quantity 1; price TBC.
+
+============================================================
+RECORD: K010 | Item
+BEFORE NAME: Commercial ice machine
+AFTER NAME: Commercial ice machine
+BEFORE NOTES:
+ID: K010
+Category: Equipment
+Priority: Medium
+Purchase Status: Not confirmed
+Qty: 1
+GST Basis: Unknown
+Source: Existing expenditure workbook
+Details / Notes: Commercial ice machine — capacity/model TBC | Quantity provisional; price TBC. | Progress: Researching | Priority: Medium
+AFTER NOTES:
+capacity/model TBC | Quantity provisional; price TBC.
+
+============================================================
+RECORD: K051 | Item
+BEFORE NAME: Commercial jug rinser
+AFTER NAME: Commercial jug rinser
+BEFORE NOTES:
+ID: K051
+Category: Equipment
+Priority: Medium
+Purchase Status: Not confirmed
+Qty: 1
+GST Basis: Unknown
+Source: Existing expenditure workbook
+Details / Notes: Commercial jug rinser — milk and blender jugs | New item; measurements/specification and price to confirm | Progress: New / To Quote | Priority: Medium
+AFTER NOTES:
+milk and blender jugs | New item; measurements/specification and price to confirm
+
+============================================================
+RECORD: K004 | Item
+BEFORE NAME: Contact grill
+AFTER NAME: Contact grill
+BEFORE NOTES:
+ID: K004
+Category: Equipment
+Priority: Medium
+Purchase Status: Not confirmed
+Qty: 1
+GST Basis: Unknown
+Source: Existing expenditure workbook
+Details / Notes: Spidoglass SPE-SP020X Contact Grill Double XPRO Smooth Black - 15 Amp | Model: SPE-SP020X | Progress: Researching | Priority: Medium
+AFTER NOTES:
+Spidoglass SPE-SP020X Contact Grill Double XPRO Smooth Black - 15 Amp | Model: SPE-SP020X
+
+============================================================
+RECORD: K041 | Item
+BEFORE NAME: Decorative slat panels
+AFTER NAME: Decorative slat panels
+BEFORE NOTES:
+ID: K041
+Category: Cafe Walls
+Priority: Medium
+Purchase Status: Not confirmed
+Qty: 1
+GST Basis: Unknown
+Source: Existing expenditure workbook
+Details / Notes: Decorative slat panels — main large feature wall | Measure wall width and floor-to-ceiling height; confirm slat colour, material and fixing. | Progress: High Priority | Priority: High
+AFTER NOTES:
+main large feature wall | Measure wall width and floor-to-ceiling height; confirm slat colour, material and fixing.
+
+============================================================
+RECORD: K040 | Item
+BEFORE NAME: Decorative wall panels
+AFTER NAME: Decorative wall panels
+BEFORE NOTES:
+ID: K040
+Category: Cafe Walls
+Priority: Medium
+Purchase Status: Not confirmed
+Qty: 1
+GST Basis: Unknown
+Source: Existing expenditure workbook
+Details / Notes: Decorative wall panels — two smaller feature walls | Confirm floor-to-ceiling height, wall widths, panel type, quantity and installation method. | Progress: High Priority | Priority: High
+AFTER NOTES:
+two smaller feature walls | Confirm floor-to-ceiling height, wall widths, panel type, quantity and installation method.
+
+============================================================
+RECORD: PLAN-009 | Task
+BEFORE NAME: Door frames/handles
+AFTER NAME: Door frames/handles
+BEFORE NOTES:
+ID: PLAN-009
+Category: Planning / Fit-out
+Priority: Medium
+Purchase Status: Not confirmed
+GST Basis: Unknown
+Source: KRUNCH Planning.docx
+Linked / Possible Duplicate: K039
+Original task status: Decision required
+Details / Notes: Entry door handles are badly worn. Consider respraying or ordering new ones | Spray paint or new items
+AFTER NOTES:
+Entry door handles are badly worn. Consider respraying or ordering new ones | Spray paint or new items
+Linked / Possible Duplicate: K039
+Original task status: Decision required
+
+============================================================
+RECORD: K055 | Task
+BEFORE NAME: Electrical connection for coffee machine
+AFTER NAME: Electrical connection for coffee machine
+BEFORE NOTES:
+ID: K055
+Category: Other Fit-out
+Priority: Medium
+Purchase Status: Not confirmed
+Qty: 1
+GST Basis: Unknown
+Source: Existing expenditure workbook
+Details / Notes: New item; measurements/specification and price to confirm | Progress: New / To Quote | Priority: High
+AFTER NOTES:
+New item; measurements/specification and price to confirm
+
+============================================================
+RECORD: PLAN-001 | Task
+BEFORE NAME: Existing awning
+AFTER NAME: Existing awning
+BEFORE NOTES:
+ID: PLAN-001
+Category: Planning / Fit-out
+Priority: Medium
+Purchase Status: Not confirmed
+GST Basis: Unknown
+Source: KRUNCH Planning.docx
+Linked / Possible Duplicate: K033
+Details / Notes: Needs replacing – 11 sheets at 5m lengths (might need delivery) | 11 roofing sheets
+AFTER NOTES:
+Needs replacing – 11 sheets at 5m lengths (might need delivery) | 11 roofing sheets
+Linked / Possible Duplicate: K033
+
+============================================================
+RECORD: PLAN-003 | Task
+BEFORE NAME: Existing benches/tables
+AFTER NAME: Existing benches/tables
+BEFORE NOTES:
+ID: PLAN-003
+Category: Planning / Fit-out
+Priority: Medium
+Purchase Status: Not confirmed
+GST Basis: Unknown
+Source: KRUNCH Planning.docx
+Linked / Possible Duplicate: K036
+Details / Notes: Need to be repainted | Sand paper | Paint or stain
+AFTER NOTES:
+Need to be repainted | Sand paper | Paint or stain
+Linked / Possible Duplicate: K036
+
+============================================================
+RECORD: PLAN-002 | Task
+BEFORE NAME: Existing pavers
+AFTER NAME: Existing pavers
+BEFORE NOTES:
+ID: PLAN-002
+Category: Planning / Fit-out
+Priority: Medium
+Purchase Status: Not confirmed
+GST Basis: Unknown
+Source: KRUNCH Planning.docx
+Linked / Possible Duplicate: K035
+Details / Notes: Need to be power washed | Mark will do
+AFTER NOTES:
+Need to be power washed | Mark will do
+Linked / Possible Duplicate: K035
+
+============================================================
+RECORD: K016 | Task
+BEFORE NAME: Exterior painting
+AFTER NAME: Exterior painting
+BEFORE NOTES:
+ID: K016
+Category: Exterior & Finishes
+Priority: Medium
+Purchase Status: Not confirmed
+Qty: 1
+GST Basis: Unknown
+Source: Existing expenditure workbook
+Details / Notes: Exterior painting — scope TBC | Exterior painting required; scope and quote TBC. | Progress: Researching | Priority: Medium
+AFTER NOTES:
+scope TBC | Exterior painting required; scope and quote TBC.
+
+============================================================
+RECORD: K028 | Item
+BEFORE NAME: External roadside fence-mounted KRUNCH business sign
+AFTER NAME: Roadside KRUNCH business sign
+BEFORE NOTES:
+ID: K028
+Category: Exterior & Finishes
+Priority: Medium
+Purchase Status: Not confirmed
+Qty: 2
+GST Basis: Unknown
+Source: Existing expenditure workbook
+Details / Notes: External roadside fence-mounted KRUNCH business sign — 3000 W × 2000 H mm | 1–2 signs; quote for one and two; elevated fence mounting, wind load, installation and approvals TBC | Progress: Quote Required | Priority: Medium
+AFTER NOTES:
+3000 W × 2000 H mm | 1–2 signs; quote for one and two; elevated fence mounting, wind load, installation and approvals TBC
+
+============================================================
+RECORD: PLAN-016 | Item
+BEFORE NAME: Feature-wall slat panels
+AFTER NAME: Feature-wall slat panels
+BEFORE NOTES:
+ID: PLAN-016
+Category: Planning / Fit-out
+Priority: Medium
+Purchase Status: Not confirmed
+GST Basis: Unknown
+Source: KRUNCH Planning.docx
+Linked / Possible Duplicate: K041
+Details / Notes: Slats for below the sign | DAKEETA – slats -
+AFTER NOTES:
+Slats for below the sign | DAKEETA – slats -
+Linked / Possible Duplicate: K041
+
+============================================================
+RECORD: K022 | Task
+BEFORE NAME: Front ceiling lighting replacement
+AFTER NAME: Front ceiling lighting replacement
+BEFORE NOTES:
+ID: K022
+Category: Other Fit-out
+Priority: Medium
+Purchase Status: Not confirmed
+Qty: 1
+GST Basis: Unknown
+Source: Existing expenditure workbook
+Details / Notes: Front ceiling lighting replacement — existing approx 1200×300 mm LED panels to 150–200 mm downlights | Number of fittings, cut-outs and suitability TBC; coordinated with ceiling painting. | Progress: Researching | Priority: Medium
+AFTER NOTES:
+existing approx 1200×300 mm LED panels to 150–200 mm downlights | Number of fittings, cut-outs and suitability TBC; coordinated with ceiling painting.
+
+============================================================
+RECORD: K007 | Item
+BEFORE NAME: Front floor tiles
+AFTER NAME: Front floor tiles
+BEFORE NOTES:
+ID: K007
+Category: Floors
+Priority: Medium
+Purchase Status: Not confirmed
+Qty: 100
+GST Basis: Incl GST
+Source: Existing expenditure workbook
+Details / Notes: Front floor tiles — 100 m² at $25/m² | Tile supply only; 100 × $25 incl GST. | Progress: Quoted | Priority: Medium
+AFTER NOTES:
+100 m² at $25/m² | Tile supply only; 100 × $25 incl GST.
+
+============================================================
+RECORD: K005 | Task
+BEFORE NAME: Front floor tiling installation
+AFTER NAME: Front floor tiling installation
+BEFORE NOTES:
+ID: K005
+Category: Floors
+Priority: Medium
+Purchase Status: Not confirmed
+Qty: 1
+GST Basis: Unknown
+Source: Existing expenditure workbook
+Details / Notes: Front floor tiling installation — 90 m²; labour, adhesive and installation materials | 90 m²; quote $4,000. Excludes tiles; confirm GST basis. | Progress: Quoted | Priority: Medium
+AFTER NOTES:
+90 m²; labour, adhesive and installation materials | 90 m²; quote $4,000. Excludes tiles; confirm GST basis.
+
+============================================================
+RECORD: PLAN-014 | Item
+BEFORE NAME: Green feature-wall panels
+AFTER NAME: Green feature-wall panels
+BEFORE NOTES:
+ID: PLAN-014
+Category: Planning / Fit-out
+Priority: Medium
+Purchase Status: Not confirmed
+GST Basis: Unknown
+Source: KRUNCH Planning.docx
+Linked / Possible Duplicate: K027
+Details / Notes: Fake Green panels x 8 | Green panels + add-ons
+AFTER NOTES:
+Fake Green panels x 8 | Green panels + add-ons
+Linked / Possible Duplicate: K027
+
+============================================================
+RECORD: PLAN-005 | Task
+BEFORE NAME: Hedges
+AFTER NAME: Hedges
+BEFORE NOTES:
+ID: PLAN-005
+Category: Planning / Fit-out
+Priority: Medium
+Purchase Status: Not confirmed
+GST Basis: Unknown
+Source: KRUNCH Planning.docx
+Details / Notes: Barings to organise trimming
+AFTER NOTES:
+Barings to organise trimming
+
+============================================================
+RECORD: PLAN-015 | Item
+BEFORE NAME: Illuminated KRUNCH feature-wall sign
+AFTER NAME: Illuminated KRUNCH feature-wall sign
+BEFORE NOTES:
+ID: PLAN-015
+Category: Planning / Fit-out
+Priority: Medium
+Purchase Status: Not confirmed
+GST Basis: Unknown
+Source: KRUNCH Planning.docx
+Linked / Possible Duplicate: K025
+Details / Notes: KRUNCH Café  illuminated sign for inside – includes installation | 1 illuminated sign by KOOFI
+AFTER NOTES:
+KRUNCH Café  illuminated sign for inside – includes installation | 1 illuminated sign by KOOFI
+Linked / Possible Duplicate: K025
+
+============================================================
+RECORD: K015 | Item
+BEFORE NAME: Indoor café chairs
+AFTER NAME: Indoor café chairs
+BEFORE NOTES:
+ID: K015
+Category: Furniture
+Priority: Medium
+Purchase Status: Not confirmed
+Qty: 40
+GST Basis: Unknown
+Source: Existing expenditure workbook
+Details / Notes: Indoor café chairs — 40 units (target under $50 each) | Preferred under $50 each; indicative $39–$50 each; 56 planning quantity, max 60; not a supplier quote. Previous allowance 50–60 total; now indoor 40, outdoor separate. | Progress: Budgeting | Priority: Medium
+AFTER NOTES:
+40 units (target under $50 each) | Preferred under $50 each; indicative $39–$50 each; 56 planning quantity, max 60; not a supplier quote. Previous allowance 50–60 total; now indoor 40, outdoor separate.
+
+============================================================
+RECORD: K053 | Item
+BEFORE NAME: Insect zapper
+AFTER NAME: Insect zapper
+BEFORE NOTES:
+ID: K053
+Category: Other Equipment
+Priority: Medium
+Purchase Status: Not confirmed
+Qty: 1
+GST Basis: Unknown
+Source: Existing expenditure workbook
+Details / Notes: New item; measurements/specification and price to confirm | Progress: New / To Quote | Priority: Medium
+AFTER NOTES:
+New item; measurements/specification and price to confirm
+
+============================================================
+RECORD: K049 | Task
+BEFORE NAME: Joinery / framing to house menu board screens
+AFTER NAME: Joinery / framing to house menu board screens
+BEFORE NOTES:
+ID: K049
+Category: Menu & Digital
+Priority: Medium
+Purchase Status: Not confirmed
+Qty: 1
+GST Basis: Unknown
+Source: Existing expenditure workbook
+Details / Notes: New item; measurements/specification and price to confirm | Progress: New / To Quote | Priority: High
+AFTER NOTES:
+New item; measurements/specification and price to confirm
+
+============================================================
+RECORD: K025 | Item
+BEFORE NAME: KRUNCH brand backlit feature-wall signage
+AFTER NAME: KRUNCH brand backlit feature-wall signage
+BEFORE NOTES:
+ID: K025
+Category: Cafe Walls
+Priority: Medium
+Purchase Status: Not confirmed
+Qty: 1
+GST Basis: Unknown
+Source: Existing expenditure workbook
+Details / Notes: Backlit KRUNCH letters/sign; size, material and location TBC. | Progress: Researching | Priority: Medium
+AFTER NOTES:
+Backlit KRUNCH letters/sign; size, material and location TBC.
+
+============================================================
+RECORD: K026 | Item
+BEFORE NAME: Large backlit LED feature-wall mirror
+AFTER NAME: Large backlit LED feature-wall mirror
+BEFORE NOTES:
+ID: K026
+Category: Cafe Walls
+Priority: Medium
+Purchase Status: Not confirmed
+Qty: 1
+GST Basis: Unknown
+Source: Existing expenditure workbook
+Details / Notes: Large backlit LED feature-wall mirror — optional | Large feature wall; dimensions and design TBC. | Progress: Optional | Priority: Low
+AFTER NOTES:
+optional | Large feature wall; dimensions and design TBC.
+
+============================================================
+RECORD: K024 | Item
+BEFORE NAME: Main customer feature-wall television
+AFTER NAME: Main customer feature-wall television
+BEFORE NOTES:
+ID: K024
+Category: Menu & Digital
+Priority: Medium
+Purchase Status: Not confirmed
+Qty: 1
+GST Basis: Unknown
+Source: Existing expenditure workbook
+Details / Notes: Main customer feature-wall television — 75 inch | One 75-inch screen; model and mounting TBC. | Progress: Researching | Priority: Medium
+AFTER NOTES:
+75 inch | One 75-inch screen; model and mounting TBC.
+
+============================================================
+RECORD: K012 | Item
+BEFORE NAME: Meat tenderiser
+AFTER NAME: Meat tenderiser
+BEFORE NOTES:
+ID: K012
+Category: Equipment
+Priority: Medium
+Purchase Status: Not confirmed
+Qty: 1
+GST Basis: Unknown
+Source: Existing expenditure workbook
+Details / Notes: Meat tenderiser — model TBC | Quantity provisional; price TBC. | Progress: Researching | Priority: Medium
+AFTER NOTES:
+model TBC | Quantity provisional; price TBC.
+
+============================================================
+RECORD: K023 | Item
+BEFORE NAME: Menu board television screens
+AFTER NAME: Menu board television screens
+BEFORE NOTES:
+ID: K023
+Category: Menu & Digital
+Priority: Medium
+Purchase Status: Not confirmed
+Qty: 6
+GST Basis: Unknown
+Source: Existing expenditure workbook
+Details / Notes: Menu board television screens — 50–55 inch | 5–6 screens planned; quantity provisionally 6; mounting/signage connectivity TBC. | Progress: Researching | Priority: Medium
+AFTER NOTES:
+50–55 inch | 5–6 screens planned; quantity provisionally 6; mounting/signage connectivity TBC.
+
+============================================================
+RECORD: K017 | Item
+BEFORE NAME: Modern secure CCTV camera system
+AFTER NAME: Modern secure CCTV camera system
+BEFORE NOTES:
+ID: K017
+Category: Security & Technology
+Priority: Medium
+Purchase Status: Not confirmed
+Qty: 1
+GST Basis: Unknown
+Source: Existing expenditure workbook
+Details / Notes: Modern secure CCTV camera system — replace existing | Number of cameras, recorder, storage and installation TBC. | Progress: Researching | Priority: Medium
+AFTER NOTES:
+replace existing | Number of cameras, recorder, storage and installation TBC.
+
+============================================================
+RECORD: K014 | Item
+BEFORE NAME: New café tables
+AFTER NAME: New café tables
+BEFORE NOTES:
+ID: K014
+Category: Furniture
+Priority: Medium
+Purchase Status: Not confirmed
+Qty: 14
+GST Basis: Unknown
+Source: Existing expenditure workbook
+Details / Notes: New café tables — 600×600 to 700×700 mm maximum | 14 tables planned; sizes must not exceed 700×700 mm; price TBC. | Progress: Researching | Priority: Medium
+AFTER NOTES:
+600×600 to 700×700 mm maximum | 14 tables planned; sizes must not exceed 700×700 mm; price TBC.
+
+============================================================
+RECORD: K038 | Task
+BEFORE NAME: Optional re-tinting of front windows
+AFTER NAME: Optional re-tinting of front windows
+BEFORE NOTES:
+ID: K038
+Category: Exterior & Finishes
+Priority: Medium
+Purchase Status: Not confirmed
+Qty: 1
+GST Basis: Unknown
+Source: Existing expenditure workbook
+Details / Notes: Measure glazing; check existing tint and landlord requirements. Low priority. | Progress: Nice to Have | Priority: Low
+AFTER NOTES:
+Measure glazing; check existing tint and landlord requirements. Low priority.
+
+============================================================
+RECORD: K006 | Task
+BEFORE NAME: Optional rear / behind-counter floor tiling installation
+AFTER NAME: Optional rear / behind-counter floor tiling installation
+BEFORE NOTES:
+ID: K006
+Category: Floors
+Priority: Medium
+Purchase Status: Not confirmed
+Qty: 1
+GST Basis: Unknown
+Source: Existing expenditure workbook
+Details / Notes: Optional rear / behind-counter floor tiling installation — 28 m² at $45/m² | 28 × $45 = $1,260. Labour, adhesive and installation materials; excludes tiles. Confirm GST basis. | Progress: Optional | Priority: Low
+AFTER NOTES:
+28 m² at $45/m² | 28 × $45 = $1,260. Labour, adhesive and installation materials; excludes tiles. Confirm GST basis.
+
+============================================================
+RECORD: K008 | Item
+BEFORE NAME: Optional rear / behind-counter tiles
+AFTER NAME: Optional rear / behind-counter tiles
+BEFORE NOTES:
+ID: K008
+Category: Floors
+Priority: Medium
+Purchase Status: Not confirmed
+Qty: 30
+GST Basis: Incl GST
+Source: Existing expenditure workbook
+Details / Notes: Optional rear / behind-counter tiles — 30 m² at $25/m² | Tile supply only; 30 × $25 incl GST. | Progress: Optional | Priority: Low
+AFTER NOTES:
+30 m² at $25/m² | Tile supply only; 30 × $25 incl GST.
+
+============================================================
+RECORD: K039 | Task
+BEFORE NAME: Optional repaint / spray-refinish metal entry door frames
+AFTER NAME: Optional repaint / spray-refinish metal entry door frames
+BEFORE NOTES:
+ID: K039
+Category: Exterior & Finishes
+Priority: Medium
+Purchase Status: Not confirmed
+Qty: 1
+GST Basis: Unknown
+Source: Existing expenditure workbook
+Details / Notes: Confirm frame finish, preparation and suitability of spray paint; low priority. | Progress: Nice to Have | Priority: Low
+AFTER NOTES:
+Confirm frame finish, preparation and suitability of spray paint; low priority.
+
+============================================================
+RECORD: K054 | Item
+BEFORE NAME: Outdoor chairs
+AFTER NAME: Outdoor chairs
+BEFORE NOTES:
+ID: K054
+Category: Furniture
+Priority: Medium
+Purchase Status: Not confirmed
+GST Basis: Unknown
+Source: Existing expenditure workbook
+Details / Notes: Outdoor chairs — quantity to confirm | New item; measurements/specification and price to confirm | Progress: New / To Quote | Priority: Low
+AFTER NOTES:
+quantity to confirm | New item; measurements/specification and price to confirm
+
+============================================================
+RECORD: K013 | Task
+BEFORE NAME: Painting
+AFTER NAME: Painting
+BEFORE NOTES:
+ID: K013
+Category: Floors
+Priority: Medium
+Purchase Status: Not confirmed
+Qty: 1
+GST Basis: Unknown
+Source: Existing expenditure workbook
+Details / Notes: Painting — ceiling tiles, selected internal walls and cool room walls | Budget estimate $2,000; scope and GST basis TBC. | Progress: Estimate | Priority: Medium
+AFTER NOTES:
+ceiling tiles, selected internal walls and cool room walls | Budget estimate $2,000; scope and GST basis TBC.
+
+============================================================
+RECORD: K047 | Item
+BEFORE NAME: Prep counter underbench fridge
+AFTER NAME: Prep counter underbench fridge
+BEFORE NOTES:
+ID: K047
+Category: Equipment
+Priority: Medium
+Purchase Status: Not confirmed
+Qty: 1
+GST Basis: Incl GST
+Source: Existing expenditure workbook
+Details / Notes: Prep counter underbench fridge — Borrelli stainless steel 3-door 403L (1795 W × 700 D mm); possible coffee bar fridge | Model: GN3100TN | HYPERLINK is not implemented. linkLocation=https://borrelli.com.au/products/borrelli-counter-fridge-stainless-steel-3-door-1795mm-long-700mm-deep, friendlyName=Click here | Link: https://borrelli.com.au/products/borrelli-counter-fridge-stainless-steel-3-door-1795mm-long-700mm-deep?variant=47585864352034 | Progress: Researching — Sold Out | Priority: Medium
+AFTER NOTES:
+Borrelli stainless steel 3-door 403L (1795 W × 700 D mm); possible coffee bar fridge | Model: GN3100TN | HYPERLINK is not implemented. linkLocation=https://borrelli.com.au/products/borrelli-counter-fridge-stainless-steel-3-door-1795mm-long-700mm-deep, friendlyName=Click here | Link: https://borrelli.com.au/products/borrelli-counter-fridge-stainless-steel-3-door-1795mm-long-700mm-deep?variant=47585864352034
+
+============================================================
+RECORD: K035 | Task
+BEFORE NAME: Pressure wash outdoor eating-area floor
+AFTER NAME: Pressure wash outdoor eating-area floor
+BEFORE NOTES:
+ID: K035
+Category: Floors
+Priority: Medium
+Purchase Status: Not confirmed
+Qty: 1
+GST Basis: Unknown
+Source: Existing expenditure workbook
+Details / Notes: Area and surface treatment TBC | Progress: Quote Required | Priority: Medium
+AFTER NOTES:
+Area and surface treatment TBC
+
+============================================================
+RECORD: K034 | Task
+BEFORE NAME: Pressure wash outdoor seating benches
+AFTER NAME: Pressure wash outdoor seating benches
+BEFORE NOTES:
+ID: K034
+Category: Exterior & Finishes
+Priority: Medium
+Purchase Status: Not confirmed
+Qty: 1
+GST Basis: Unknown
+Source: Existing expenditure workbook
+Details / Notes: Scope/bench count to confirm | Progress: Quote Required | Priority: Medium
+AFTER NOTES:
+Scope/bench count to confirm
+
+============================================================
+RECORD: K029 | Item
+BEFORE NAME: Promotional flags / banners mounted to external fence posts
+AFTER NAME: Promotional flags / banners mounted to external fence posts
+BEFORE NOTES:
+ID: K029
+Category: Exterior & Finishes
+Priority: Medium
+Purchase Status: Not confirmed
+GST Basis: Unknown
+Source: Existing expenditure workbook
+Details / Notes: Quantity, dimensions, brackets and permissions TBC | Progress: Quote Required | Priority: Medium
+AFTER NOTES:
+Quantity, dimensions, brackets and permissions TBC
+
+============================================================
+RECORD: K037 | Task
+BEFORE NAME: REMINDER
+AFTER NAME: REMINDER
+BEFORE NOTES:
+ID: K037
+Category: Exterior & Finishes
+Priority: Medium
+Purchase Status: Not confirmed
+Qty: 1
+GST Basis: N/A
+Source: Existing expenditure workbook
+Details / Notes: REMINDER — ask landscape gardeners to trim hedges lower and lift lower tree branches | Improve visibility from street; coordinate with landlord/landscapers; not included in cost total | Progress: Reminder | Priority: Medium
+AFTER NOTES:
+ask landscape gardeners to trim hedges lower and lift lower tree branches | Improve visibility from street; coordinate with landlord/landscapers; not included in cost total
+
+============================================================
+RECORD: K052 | Task
+BEFORE NAME: Replace existing handwash sink
+AFTER NAME: Replace existing handwash sink
+BEFORE NOTES:
+ID: K052
+Category: Equipment
+Priority: Medium
+Purchase Status: Not confirmed
+Qty: 1
+GST Basis: Unknown
+Source: Existing expenditure workbook
+Details / Notes: New item; measurements/specification and price to confirm | Progress: New / To Quote | Priority: Medium
+AFTER NOTES:
+New item; measurements/specification and price to confirm
+
+============================================================
+RECORD: K033 | Task
+BEFORE NAME: Replace weather-worn curved front awning sheets
+AFTER NAME: Replace weather-worn curved front awning sheets
+BEFORE NOTES:
+ID: K033
+Category: Exterior & Finishes
+Priority: Medium
+Purchase Status: Not confirmed
+Qty: 11
+GST Basis: Unknown
+Source: Existing expenditure workbook
+Details / Notes: Replace weather-worn curved front awning sheets — approx 600 mm wide × 6000 mm long | Approximately 11 sheets; dimensions, material, access and fitting TBC | Progress: Quote Required | Priority: Medium
+AFTER NOTES:
+approx 600 mm wide × 6000 mm long | Approximately 11 sheets; dimensions, material, access and fitting TBC
+
+============================================================
+RECORD: K036 | Task
+BEFORE NAME: Revarnish or repaint outdoor seating benches
+AFTER NAME: Revarnish or repaint outdoor seating benches
+BEFORE NOTES:
+ID: K036
+Category: Exterior & Finishes
+Priority: Medium
+Purchase Status: Not confirmed
+Qty: 1
+GST Basis: Unknown
+Source: Existing expenditure workbook
+Details / Notes: After pressure washing; preparation and finish TBC | Progress: Quote Required | Priority: Medium
+AFTER NOTES:
+After pressure washing; preparation and finish TBC
+
+============================================================
+RECORD: PLAN-006 | Task
+BEFORE NAME: Signage
+AFTER NAME: Signage
+BEFORE NOTES:
+ID: PLAN-006
+Category: Planning / Fit-out
+Priority: Medium
+Purchase Status: Not confirmed
+GST Basis: Unknown
+Source: KRUNCH Planning.docx
+Linked / Possible Duplicate: K028 / K029
+Details / Notes: Koofi Signs to make – order lead time is 3 weeks | 2 large signs for front | Possibly order flags
+AFTER NOTES:
+Koofi Signs to make – order lead time is 3 weeks | 2 large signs for front | Possibly order flags
+Linked / Possible Duplicate: K028 / K029
+
+============================================================
+RECORD: K044 | Item
+BEFORE NAME: Six-tray three-phase combi oven
+AFTER NAME: Six-tray three-phase combi oven
+BEFORE NOTES:
+ID: K044
+Category: Equipment
+Priority: Medium
+Purchase Status: Purchased
+Qty: 1
+GST Basis: Unknown
+Source: Existing expenditure workbook
+Original task status: Purchased / install pending
+Details / Notes: Six-tray three-phase combi oven — purchased, collection outstanding | Purchase price $1,512; GST inclusion unconfirmed. Check collection arrangements, transport and installation. | Progress: Purchased — Awaiting Pickup | Priority: Medium
+AFTER NOTES:
+purchased, collection outstanding | Purchase price $1,512; GST inclusion unconfirmed. Check collection arrangements, transport and installation.
+
+============================================================
+RECORD: K019 | Item
+BEFORE NAME: Stainless steel catering work benches
+AFTER NAME: Stainless steel catering work benches
+BEFORE NOTES:
+ID: K019
+Category: Equipment
+Priority: Medium
+Purchase Status: Not confirmed
+Qty: 1
+GST Basis: Unknown
+Source: Existing expenditure workbook
+Details / Notes: Stainless steel catering work benches — back area | Quantity and dimensions TBC; catering preparation workspace. | Progress: Researching | Priority: Medium
+AFTER NOTES:
+back area | Quantity and dimensions TBC; catering preparation workspace.
+
+============================================================
+RECORD: K020 | Item
+BEFORE NAME: Stainless steel shelving
+AFTER NAME: Stainless steel shelving
+BEFORE NOTES:
+ID: K020
+Category: Equipment
+Priority: Medium
+Purchase Status: Not confirmed
+Qty: 1
+GST Basis: Unknown
+Source: Existing expenditure workbook
+Details / Notes: Stainless steel shelving — back area | Quantity and dimensions TBC. | Progress: Researching | Priority: Medium
+AFTER NOTES:
+back area | Quantity and dimensions TBC.
+
+============================================================
+RECORD: 36032792-b2bb-43ac-86d0-9d153ee15cd6 | Task
+BEFORE NAME: Test
+AFTER NAME: Test
+BEFORE NOTES:
+(empty)
+AFTER NOTES:
+(empty)
+
+============================================================
+RECORD: K048 | Item
+BEFORE NAME: TV brackets / wall mounts for menu screens
+AFTER NAME: TV brackets / wall mounts for menu screens
+BEFORE NOTES:
+ID: K048
+Category: Menu & Digital
+Priority: Medium
+Purchase Status: Not confirmed
+Qty: 6
+GST Basis: Unknown
+Source: Existing expenditure workbook
+Details / Notes: New item; measurements/specification and price to confirm | Progress: New / To Quote | Priority: High
+AFTER NOTES:
+New item; measurements/specification and price to confirm
+
+============================================================
+RECORD: K043 | Task
+BEFORE NAME: Verify three-phase electrical circuit for purchased six-tray com
+AFTER NAME: Verify three-phase electrical circuit for purchased six-tray com
+BEFORE NOTES:
+ID: K043
+Category: Other Fit-out
+Priority: Medium
+Purchase Status: Not confirmed
+Qty: 1
+GST Basis: Unknown
+Source: Existing expenditure workbook
+Details / Notes: Verify three-phase electrical circuit for purchased six-tray combi oven | Confirm oven rating, suitable dedicated circuit, outlet/isolator and licensed electrician inspection. | Progress: Inspection Required | Priority: Medium
+AFTER NOTES:
+Verify three-phase electrical circuit for purchased six-tray combi oven | Confirm oven rating, suitable dedicated circuit, outlet/isolator and licensed electrician inspection.
+
+============================================================
+RECORD: K050 | Item
+BEFORE NAME: Vinyl flooring for kitchen area
+AFTER NAME: Vinyl flooring for kitchen area
+BEFORE NOTES:
+ID: K050
+Category: Floors
+Priority: Medium
+Purchase Status: Not confirmed
+Qty: 1
+GST Basis: Unknown
+Source: Existing expenditure workbook
+Details / Notes: Vinyl flooring for kitchen area — measure and quote | New item; measurements/specification and price to confirm | Progress: New / To Quote | Priority: Medium
+AFTER NOTES:
+measure and quote | New item; measurements/specification and price to confirm
+
+============================================================
+RECORD: K030 | Item
+BEFORE NAME: Waldorf 1200 mm hot plate / griddle
+AFTER NAME: Waldorf 1200 mm hot plate / griddle
+BEFORE NOTES:
+ID: K030
+Category: Equipment
+Priority: Medium
+Purchase Status: Not confirmed
+Qty: 1
+GST Basis: Ex GST
+Source: Existing expenditure workbook
+Details / Notes: Negotiable quote; $5,500 + GST; confirm model/SKU | Progress: Quoted | Priority: Medium
+AFTER NOTES:
+Negotiable quote; $5,500 + GST; confirm model/SKU
+
+============================================================
+RECORD: K032 | Item
+BEFORE NAME: Waldorf single-pan three-basket deep fryer
+AFTER NAME: Waldorf single-pan three-basket deep fryer
+BEFORE NOTES:
+ID: K032
+Category: Equipment
+Priority: Medium
+Purchase Status: Not confirmed
+Qty: 1
+GST Basis: Ex GST
+Source: Existing expenditure workbook
+Details / Notes: Waldorf single-pan three-basket deep fryer — approx 600 mm wide | Quote $3,500 + GST; confirm model/SKU | Progress: Quoted | Priority: Medium
+AFTER NOTES:
+approx 600 mm wide | Quote $3,500 + GST; confirm model/SKU
+
+============================================================
+RECORD: K031 | Item
+BEFORE NAME: Waldorf split-pan two-basket deep fryer
+AFTER NAME: Waldorf split-pan two-basket deep fryer
+BEFORE NOTES:
+ID: K031
+Category: Equipment
+Priority: Medium
+Purchase Status: Not confirmed
+Qty: 1
+GST Basis: Ex GST
+Source: Existing expenditure workbook
+Details / Notes: Waldorf split-pan two-basket deep fryer — approx 450 mm wide | Quote $3,500 + GST; confirm model/SKU | Progress: Quoted | Priority: Medium
+AFTER NOTES:
+approx 450 mm wide | Quote $3,500 + GST; confirm model/SKU
+
+============================================================
+RECORD: PLAN-013 | Task
+BEFORE NAME: Wall skirting
+AFTER NAME: Wall skirting
+BEFORE NOTES:
+ID: PLAN-013
+Category: Planning / Fit-out
+Priority: Medium
+Purchase Status: Not confirmed
+GST Basis: Unknown
+Source: KRUNCH Planning.docx
+Details / Notes: Skirting 15m for all walls | Material TBC
+AFTER NOTES:
+Skirting 15m for all walls | Material TBC
+
+============================================================
+RECORD: PLAN-007 | Item
+BEFORE NAME: Wind breaks
+AFTER NAME: Wind breaks
+BEFORE NOTES:
+ID: PLAN-007
+Category: Planning / Fit-out
+Priority: Medium
+Purchase Status: Not confirmed
+GST Basis: Unknown
+Source: KRUNCH Planning.docx
+Original task status: Decision required
+Details / Notes: Clean or change – remove Design Roast branding
+AFTER NOTES:
+Clean or change – remove Design Roast branding
+Original task status: Decision required
+
+============================================================
+RECORD: PLAN-008 | Task
+BEFORE NAME: Window tinting
+AFTER NAME: Window tinting
+BEFORE NOTES:
+ID: PLAN-008
+Category: Planning / Fit-out
+Priority: Medium
+Purchase Status: Not confirmed
+GST Basis: Unknown
+Source: KRUNCH Planning.docx
+Linked / Possible Duplicate: K038
+Original task status: Decision required
+Details / Notes: Replace damaged tints – or all if applicable
+AFTER NOTES:
+Replace damaged tints – or all if applicable
+Linked / Possible Duplicate: K038
+Original task status: Decision required
+
