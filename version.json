@@ -1,9 +1,9 @@
 {
-  "version": "0.3.3",
+  "version": "0.3.4",
   "released": "2026-11-01",
   "notes": [
-    "Automatic online version checking",
-    "Update now or Later options",
-    "Refresh app files without clearing project data"
+    "Budget breakdown by fit-out area",
+    "Progress bars and completion rates by area",
+    "Item sorting and filter reset"
   ]
 }
