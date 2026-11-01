@@ -1,9 +1,9 @@
 {
-  "version": "0.5.2",
+  "version": "0.6.0",
   "released": "2026-11-01",
   "notes": [
-    "Progress filters for search, area, type and status",
-    "Sorting and interactive progress summary cards",
-    "All/reset control and tap-anywhere record editing"
+    "Payment status, GST treatment, deposits and balances per item",
+    "Budget summary separates expected cost and recorded payments",
+    "Waldorf shared deposit recorded once"
   ]
 }
