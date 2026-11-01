@@ -1,10 +1,9 @@
 {
-  "version": "0.5.0",
+  "version": "0.5.1",
   "released": "2026-11-01",
   "notes": [
-    "Dedicated Tasks tab separate from purchasing Items",
-    "Link required purchases to each task",
-    "Task view highlights outstanding item dependencies",
-    "Preserve shared cloud records"
+    "Completed dashboard card links to completed purchases and tasks",
+    "Android Back gesture and browser Back navigate within app",
+    "Home Back gesture guarded against accidental exit"
   ]
 }
