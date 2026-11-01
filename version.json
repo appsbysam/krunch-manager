@@ -1,7 +1,8 @@
 {
-  "version": "0.7.0",
+  "version": "0.7.1",
   "released": "2026-11-01",
   "notes": [
+    "Fix repeated update prompt caused by outdated embedded app version",
     "Financial register for incoming funding and outgoing payments",
     "Payment sources Sam, Allan and Business Account; silent partner funding recorded separately",
     "Lease and property payments including guarantees and holding deposits",
