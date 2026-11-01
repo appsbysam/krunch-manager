@@ -1,6 +1,6 @@
 {
-  "name": "KRUNCH Manager",
-  "short_name": "KRUNCH",
+  "name": "Project Crunch",
+  "short_name": "Project Crunch",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
