@@ -1,9 +1,9 @@
 {
-  "version": "0.6.0",
+  "version": "0.6.1",
   "released": "2026-11-01",
   "notes": [
-    "Payment status, GST treatment, deposits and balances per item",
-    "Budget summary separates expected cost and recorded payments",
-    "Waldorf shared deposit recorded once"
+    "Multi-select assignments for Sam, Alan and others",
+    "Shared supplier directory with inline new supplier entry",
+    "Dollar amounts display two decimal places and inputs auto-format on blur"
   ]
 }
