@@ -1,9 +1,8 @@
 {
-  "version": "0.4.1",
+  "version": "0.4.2",
   "released": "2026-11-01",
   "notes": [
-    "Project Crunch branding on login and application",
-    "Updated browser and installed app titles",
-    "Repository and data unchanged"
+    "Corrected all application branding to Project KRUNCH",
+    "Updated installed-app name and browser title"
   ]
 }
