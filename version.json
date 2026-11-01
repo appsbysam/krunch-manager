@@ -1,9 +1,9 @@
 {
-  "version": "0.5.1",
+  "version": "0.5.2",
   "released": "2026-11-01",
   "notes": [
-    "Completed dashboard card links to completed purchases and tasks",
-    "Android Back gesture and browser Back navigate within app",
-    "Home Back gesture guarded against accidental exit"
+    "Progress filters for search, area, type and status",
+    "Sorting and interactive progress summary cards",
+    "All/reset control and tap-anywhere record editing"
   ]
 }
