@@ -1,9 +1,9 @@
 {
-  "version": "0.4.0",
+  "version": "0.4.1",
   "released": "2026-11-01",
   "notes": [
-    "Separate statuses for purchases and tasks",
-    "Cleaned notes and four descriptions with audit archive",
-    "Record IDs and custom categories/subcategories"
+    "Project Crunch branding on login and application",
+    "Updated browser and installed app titles",
+    "Repository and data unchanged"
   ]
 }
