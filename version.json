@@ -1,9 +1,9 @@
 {
-  "version": "0.4.3",
+  "version": "0.4.4",
   "released": "2026-11-01",
   "notes": [
-    "Budget filters for area, type, status and search",
-    "Sorting by estimated or actual costs, name, area and status",
-    "Filtered budget totals, result count and clear filters"
+    "Fix expired-session recovery to restore sign-in screen",
+    "Prevent unusable cloud controls after automatic login fails",
+    "Retain budget filters and sorting"
   ]
 }
