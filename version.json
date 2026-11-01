@@ -1,9 +1,10 @@
 {
-  "version": "0.4.5",
+  "version": "0.5.0",
   "released": "2026-11-01",
   "notes": [
-    "Fix duplicate JavaScript variable declaration preventing all dashboard rendering",
-    "Restore Home, Items, Budget and Progress views",
-    "Preserve budget filters and sign-in recovery"
+    "Dedicated Tasks tab separate from purchasing Items",
+    "Link required purchases to each task",
+    "Task view highlights outstanding item dependencies",
+    "Preserve shared cloud records"
   ]
 }
