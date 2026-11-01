@@ -1,8 +1,9 @@
 {
-  "version": "0.4.2",
+  "version": "0.4.3",
   "released": "2026-11-01",
   "notes": [
-    "Corrected all application branding to Project KRUNCH",
-    "Updated installed-app name and browser title"
+    "Budget filters for area, type, status and search",
+    "Sorting by estimated or actual costs, name, area and status",
+    "Filtered budget totals, result count and clear filters"
   ]
 }
