@@ -1,9 +1,8 @@
 {
-  "version": "0.9.0",
+  "version": "0.9.1",
   "released": "2026-11-03",
   "notes": [
-    "Fixed KRUNCH at a glance tiles to navigate using working bottom-tab navigation",
-    "Refreshes shared item data automatically every 12 seconds while the app is visible",
-    "Refreshes when returning to a window and avoids interrupting an open item editor"
+    "Financial Register transaction form now displays two fields per row in a compact four-row layout",
+    "Existing transaction inputs, filters, tiles and save behaviour are unchanged"
   ]
 }
