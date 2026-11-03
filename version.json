@@ -1,8 +1,10 @@
 {
-  "version": "0.9.1",
-  "released": "2026-11-03",
+  "version": "0.9.3",
+  "released": "2026-11-04",
   "notes": [
-    "Financial Register transaction form now displays two fields per row in a compact four-row layout",
-    "Existing transaction inputs, filters, tiles and save behaviour are unchanged"
+    "Opening forecast separates paid cash, committed balances and planned costs",
+    "Linked transaction payments take precedence over duplicate item payment fields",
+    "Standalone cash expenses are included; Wishlist remains outside planned item budget",
+    "Unpriced items are flagged"
   ]
 }
