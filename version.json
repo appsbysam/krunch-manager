@@ -1,9 +1,10 @@
 {
-  "version": "0.8.5",
+  "version": "0.8.6",
   "released": "2026-11-03",
   "notes": [
-    "Optional extra items with no recorded payments are excluded from expected cost and estimated balance",
-    "Optional extras are shown as a separate wishlist subtotal on the Budget dashboard",
-    "Items with recorded payments remain accounted for even if marked Optional extra"
+    "Renamed Optional extra to Wishlist and migrated existing records",
+    "Wishlist excluded from main expected budget, actual spend, paid amount summary and area totals",
+    "Added Wishlist card to KRUNCH at a glance, opening filtered wishlist items",
+    "Budget register now displays main budget and wishlist subtotals separately"
   ]
 }
