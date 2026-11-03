@@ -1,10 +1,9 @@
 {
-  "version": "0.8.0",
+  "version": "0.8.1",
   "released": "2026-11-03",
   "notes": [
-    "Interactive financial summary filters and partner contribution totals",
-    "Tap transactions to view, edit or delete with confirmation",
-    "Simplified Settings with Excel-compatible workbook, CSV and printable PDF exports",
-    "Sign out from Settings; cloud sync remains automatic"
+    "Purchased item labels turn green when paid in full and amber when a deposit or part payment is recorded",
+    "Duplicate item opens a new editable copy without copying the original payment or purchase status",
+    "Unsaved edits prompt to save the original before duplicating"
   ]
 }
