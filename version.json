@@ -1,10 +1,9 @@
 {
-  "version": "0.9.3",
+  "version": "0.9.4",
   "released": "2026-11-04",
   "notes": [
-    "Opening forecast separates paid cash, committed balances and planned costs",
-    "Linked transaction payments take precedence over duplicate item payment fields",
-    "Standalone cash expenses are included; Wishlist remains outside planned item budget",
-    "Unpriced items are flagged"
+    "Fix blank KRUNCH at a glance dashboard caused by transaction state initialisation order",
+    "Retain opening-day budget and payment reconciliation calculations",
+    "No financial records modified"
   ]
 }
