@@ -1,9 +1,9 @@
 {
-  "version": "0.8.1",
+  "version": "0.8.2",
   "released": "2026-11-03",
   "notes": [
-    "Purchased item labels turn green when paid in full and amber when a deposit or part payment is recorded",
-    "Duplicate item opens a new editable copy without copying the original payment or purchase status",
-    "Unsaved edits prompt to save the original before duplicating"
+    "Purchased items confirmed unpaid now show a red status badge",
+    "Purchased items with deposits or part payments remain amber",
+    "Fully paid purchased items remain green; unconfirmed payment records stay neutral"
   ]
 }
