@@ -1,9 +1,9 @@
 {
-  "version": "0.8.4",
+  "version": "0.8.5",
   "released": "2026-11-03",
   "notes": [
-    "Standardised item purchase statuses, including new Optional extra choice",
-    "Purchase statuses now display in logical workflow order instead of alphabetical order",
-    "Normalised existing Not purchased item records to Not yet purchased; task statuses remain separate"
+    "Optional extra items with no recorded payments are excluded from expected cost and estimated balance",
+    "Optional extras are shown as a separate wishlist subtotal on the Budget dashboard",
+    "Items with recorded payments remain accounted for even if marked Optional extra"
   ]
 }
