@@ -1,9 +1,9 @@
 {
-  "version": "0.8.2",
+  "version": "0.8.3",
   "released": "2026-11-03",
   "notes": [
-    "Purchased items confirmed unpaid now show a red status badge",
-    "Purchased items with deposits or part payments remain amber",
-    "Fully paid purchased items remain green; unconfirmed payment records stay neutral"
+    "Added winning bid and auction premium breakdowns to Slattery's and Grays equipment notes",
+    "Selecting Paid in full automatically fills Amount paid from actual cost, or estimate if actual is blank",
+    "Grays Rational oven $2 auction premium discrepancy flagged for reconciliation"
   ]
 }
