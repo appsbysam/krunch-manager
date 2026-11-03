@@ -1,8 +1,9 @@
 {
-  "version": "0.8.7",
+  "version": "0.8.8",
   "released": "2026-11-03",
   "notes": [
-    "Project Items cards show Actual cost when entered, otherwise estimated cost, regardless of purchase status",
-    "Wishlist button on KRUNCH at a glance is now blue"
+    "Project Items status badges now use the same blue as the Wishlist dashboard tile",
+    "Wishlist dashboard tile remains blue",
+    "Purchase statuses and financial calculations unchanged"
   ]
 }
