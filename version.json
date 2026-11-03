@@ -1,10 +1,8 @@
 {
-  "version": "0.8.6",
+  "version": "0.8.7",
   "released": "2026-11-03",
   "notes": [
-    "Renamed Optional extra to Wishlist and migrated existing records",
-    "Wishlist excluded from main expected budget, actual spend, paid amount summary and area totals",
-    "Added Wishlist card to KRUNCH at a glance, opening filtered wishlist items",
-    "Budget register now displays main budget and wishlist subtotals separately"
+    "Project Items cards show Actual cost when entered, otherwise estimated cost, regardless of purchase status",
+    "Wishlist button on KRUNCH at a glance is now blue"
   ]
 }
