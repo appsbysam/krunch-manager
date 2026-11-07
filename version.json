@@ -1,9 +1,10 @@
 {
-  "version": "0.9.7",
+  "version": "0.9.8",
   "released": "2026-11-07",
   "notes": [
-    "Collapsible Filter button on Project Items, Project Tasks, Budget costed items and Progress",
-    "Existing Financial Register toggle retained",
-    "Filter selections and calculations unchanged"
+    "Filter buttons now blue throughout the project",
+    "Clear filters buttons green when inactive and red when filters applied",
+    "Added clear filters control to Project Tasks",
+    "No records or calculations changed"
   ]
 }
