@@ -1,9 +1,9 @@
 {
-  "version": "0.9.9",
+  "version": "0.9.10",
   "released": "2026-11-07",
   "notes": [
-    "Clear filters buttons are greyed out and disabled when no filters are active",
-    "Clear filters turns red and clickable when filtering is applied",
-    "Blue filter toggle styling unchanged"
+    "Fix Clear filters buttons appearing transparent or clickable when inactive",
+    "Keep reset buttons visible outside collapsed filter panels",
+    "Inactive reset buttons are grey and disabled; active reset buttons are red"
   ]
 }
