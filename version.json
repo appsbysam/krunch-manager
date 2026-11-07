@@ -1,10 +1,9 @@
 {
-  "version": "0.9.5",
+  "version": "0.9.6",
   "released": "2026-11-07",
   "notes": [
-    "Simplified opening-day budget into projected cost, paid expenditure, outstanding costs and remaining cash with contingency",
-    "Separates refundable bank guarantees from fit-out expenditure using descriptions",
-    "Financial Register defaults to payments and shows funding separately",
-    "No transaction records modified"
+    "Financial Register transaction fields collapsed by default behind Filter toggle",
+    "Existing transaction editing automatically expands the form",
+    "No changes to transaction records or calculations"
   ]
 }
