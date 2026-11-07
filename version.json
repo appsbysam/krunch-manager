@@ -1,10 +1,9 @@
 {
-  "version": "0.9.8",
+  "version": "0.9.9",
   "released": "2026-11-07",
   "notes": [
-    "Filter buttons now blue throughout the project",
-    "Clear filters buttons green when inactive and red when filters applied",
-    "Added clear filters control to Project Tasks",
-    "No records or calculations changed"
+    "Clear filters buttons are greyed out and disabled when no filters are active",
+    "Clear filters turns red and clickable when filtering is applied",
+    "Blue filter toggle styling unchanged"
   ]
 }
