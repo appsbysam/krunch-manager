@@ -1,9 +1,9 @@
 {
-  "version": "0.9.6",
+  "version": "0.9.7",
   "released": "2026-11-07",
   "notes": [
-    "Financial Register transaction fields collapsed by default behind Filter toggle",
-    "Existing transaction editing automatically expands the form",
-    "No changes to transaction records or calculations"
+    "Collapsible Filter button on Project Items, Project Tasks, Budget costed items and Progress",
+    "Existing Financial Register toggle retained",
+    "Filter selections and calculations unchanged"
   ]
 }
