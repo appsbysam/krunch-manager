@@ -1,9 +1,10 @@
 {
-  "version": "0.9.4",
-  "released": "2026-11-04",
+  "version": "0.9.5",
+  "released": "2026-11-07",
   "notes": [
-    "Fix blank KRUNCH at a glance dashboard caused by transaction state initialisation order",
-    "Retain opening-day budget and payment reconciliation calculations",
-    "No financial records modified"
+    "Simplified opening-day budget into projected cost, paid expenditure, outstanding costs and remaining cash with contingency",
+    "Separates refundable bank guarantees from fit-out expenditure using descriptions",
+    "Financial Register defaults to payments and shows funding separately",
+    "No transaction records modified"
   ]
 }
