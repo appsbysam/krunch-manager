@@ -1,9 +1,11 @@
 {
-  "version": "0.9.10",
-  "released": "2026-11-07",
+  "version": "0.10.0",
+  "released": "2026-11-14",
   "notes": [
-    "Fix Clear filters buttons appearing transparent or clickable when inactive",
-    "Keep reset buttons visible outside collapsed filter panels",
-    "Inactive reset buttons are grey and disabled; active reset buttons are red"
+    "New mobile Schedule tab with shared KRUNCH tasks",
+    "Calendar and agenda with appointments and project milestones",
+    "Set task due dates, priorities and confirmation status",
+    "Shared scheduling data in existing Supabase project",
+    "Settings moved to header to make room for Schedule"
   ]
 }
