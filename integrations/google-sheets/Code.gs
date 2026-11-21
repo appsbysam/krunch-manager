@@ -52,7 +52,7 @@ function krunchAuthorise(email,password){
     KRUNCH_EXPIRES:String(Date.now()+(session.expires_in||3600)*1000)
   });
   const member=krunchRequest_("/rest/v1/krunch_manager_members?select=role","get");
-  if(!member.length)throw Error("Account is not a member of Project KRUNCH.");
+  if(!member.length){PropertiesService.getScriptProperties().deleteAllProperties();throw Error("Account is not a member of Project KRUNCH.");}
   const triggers=ScriptApp.getProjectTriggers();
   if(!triggers.some(t=>t.getHandlerFunction()==="krunchEditHandler"))
     ScriptApp.newTrigger("krunchEditHandler").forSpreadsheet(KRUNCH.spreadsheetId).onEdit().create();
@@ -115,20 +115,22 @@ function krunchPullUnsafe_(){
   const sheet=SpreadsheetApp.openById(KRUNCH.spreadsheetId).getSheetByName(KRUNCH.recordsTab);
   if(!sheet)throw Error("Project Records tab missing.");
   if(rows.length>299)throw Error("Record capacity reached. Extend protected range before sync.");
+  const safeText_=v=>{const str=String(v??"");return str.trimStart().startsWith("=")?"\u0027"+str:str};
   const data=rows.map(x=>[
     x.id||"",x.reference_id||"",x.item_kind||"Item",x.item_name||"",x.area||"",x.subcategory||"",
     x.assigned_to||"",x.task_status||"",x.purchase_status||"",Number(x.estimate)||0,
     Number(x.actual)||0,x.supplier||"",x.notes||"",x.updated_at||""
   ]);
   sheet.getRange(2,1,Math.max(sheet.getLastRow()-1,1),14).clearContent();
-  if(data.length)sheet.getRange(2,1,data.length,14).setValues(data);
-  SpreadsheetApp.getActive().toast("KRUNCH refreshed: "+rows.length+" records.");
+  if(data.length)sheet.getRange(2,1,data.length,14).setValues(data.map(row=>row.map((v,i)=>typeof v==="string"&&i!==13?safeText_(v):v)));
+  SpreadsheetApp.openById(KRUNCH.spreadsheetId).toast("KRUNCH refreshed: "+rows.length+" records.");
   return rows.length;
 }
 function krunchEditHandler(e){
   if(!e||!e.range||e.range.getSheet().getName()!==KRUNCH.recordsTab)return;
   const range=e.range;
-  if(range.getRow()<2||range.getNumRows()!==1)return; // Multi-row pastes are not synchronised.
+  if(range.getRow()<2)return;
+  if(range.getNumRows()!==1){SpreadsheetApp.openById(KRUNCH.spreadsheetId).toast("Multi-row paste is not synchronised. Use one row at a time.","Sync warning",10);return;}
   const first=range.getColumn(),last=range.getLastColumn();
   if(first<4||last>13)return;
   try{
@@ -154,7 +156,7 @@ function krunchEditHandler(e){
       krunchPullUnsafe_();
     });
   }catch(error){krunchLogError_(range.getRow(),error.message,range.getValues());
-    SpreadsheetApp.getActive().toast("KRUNCH edit NOT saved: "+error.message,"Sync error",10);}
+    SpreadsheetApp.openById(KRUNCH.spreadsheetId).toast("KRUNCH edit NOT saved: "+error.message,"Sync error",10);}
 }
 function krunchSubmitNewEntries(){
   return krunchLock_(()=>{
@@ -180,7 +182,7 @@ function krunchSubmitNewEntries(){
         sheet.getRange(i+2,9).setValue("Imported: "+created[0].id);count++;
       }catch(err){sheet.getRange(i+2,9).setValue("Error: "+err.message.slice(0,90));}
     });
-    krunchPullUnsafe_();return "Imported "+count+" new records.";
+    krunchPullUnsafe_();SpreadsheetApp.openById(KRUNCH.spreadsheetId).toast("Imported "+count+" new records.");return "Imported "+count+" new records.";
   });
 }
 function krunchLogError_(row,message,values){
