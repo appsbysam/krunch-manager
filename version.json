@@ -1,9 +1,9 @@
 {
-  "version": "0.12.5",
+  "version": "0.12.6",
   "released": "2026-11-22",
   "notes": [
-    "All Financial Register entries now share the same hover and keyboard-focus highlight",
-    "Standalone transactions and item payments both remain clickable and read-only",
-    "No payment values or transaction data changed"
+    "Financial Register transaction details close using the X or by clicking outside the modal",
+    "Clicking inside the details does not close the modal",
+    "No financial information or payments changed"
   ]
 }
