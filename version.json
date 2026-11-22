@@ -1,9 +1,9 @@
 {
-  "version": "0.12.4",
+  "version": "0.12.5",
   "released": "2026-11-22",
   "notes": [
-    "Financial Register entries now have the same white background and border",
-    "Labels distinguish item payments from financial transactions without using different colours",
-    "All entries continue to open read-only Transaction Details; editing remains under Costs"
+    "All Financial Register entries now share the same hover and keyboard-focus highlight",
+    "Standalone transactions and item payments both remain clickable and read-only",
+    "No payment values or transaction data changed"
   ]
 }
