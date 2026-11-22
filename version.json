@@ -1,11 +1,11 @@
 {
-  "version": "0.10.0",
-  "released": "2026-11-14",
+  "version": "0.11.0",
+  "released": "2026-11-22",
   "notes": [
-    "New mobile Schedule tab with shared KRUNCH tasks",
-    "Calendar and agenda with appointments and project milestones",
-    "Set task due dates, priorities and confirmation status",
-    "Shared scheduling data in existing Supabase project",
-    "Settings moved to header to make room for Schedule"
+    "Costs and services now hold all purchase, trade and payment amounts",
+    "Tasks are actions only, with no task financial fields",
+    "Budget by Area now counts cost items only and shows recorded payments",
+    "Financial audit flags missing GST, prices and payment discrepancies",
+    "Budget now appears before Costs and Tasks in navigation"
   ]
 }
