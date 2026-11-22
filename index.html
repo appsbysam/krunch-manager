@@ -162,7 +162,13 @@ function financeShowDetails({description,amount,type,source,category,date,notes,
  (extra?'<p class="muted">'+escape(extra)+'</p>':'')+
  (notes?'<p>'+escape(notes)+'</p>':'')+
  '<p class="muted">Read-only details. To change an item price or payment, open the item under Costs.</p>';
- document.getElementById("finance-close").onclick=()=>d.close();d.showModal();
+ document.getElementById("finance-close").onclick=()=>d.close();
+ d.onclick=e=>{
+   if(e.target!==d)return;
+   const r=d.getBoundingClientRect();
+   if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)d.close();
+ };
+ d.showModal();
 }
 function financeOpen(id){
  const x=financeRows.find(y=>y.id===id);if(!x)return;
