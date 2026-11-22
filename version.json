@@ -1,11 +1,10 @@
 {
-  "version": "0.11.0",
+  "version": "0.11.1",
   "released": "2026-11-22",
   "notes": [
-    "Costs and services now hold all purchase, trade and payment amounts",
-    "Tasks are actions only, with no task financial fields",
-    "Budget by Area now counts cost items only and shows recorded payments",
-    "Financial audit flags missing GST, prices and payment discrepancies",
-    "Budget now appears before Costs and Tasks in navigation"
+    "All owner-supplied prices default to GST-inclusive",
+    "Existing supplier quotes explicitly excluding GST retain their original basis",
+    "Landlord contribution shown separately as $55,000 including GST, not yet received cash",
+    "Removed unnecessary GST confirmation warnings from budget"
   ]
 }
