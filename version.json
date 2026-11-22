@@ -1,9 +1,11 @@
 {
-  "version": "0.11.3",
+  "version": "0.12.0",
   "released": "2026-11-22",
   "notes": [
-    "Budget check lists now have clickable item names",
-    "Tap any unpriced item or flagged record to open its editor directly",
-    "Existing financial records, calculations and Google Sheets sync remain unchanged"
+    "All four Budget overview cards are now clickable, showing item-level breakdowns",
+    "Assign any priced Cost item to the $55,000 GST-inclusive landlord contribution",
+    "Track allocated amount, remaining landlord capacity, and costs needing other funding",
+    "Allow partial allocations with an enforced $55,000 project-wide limit",
+    "Landlord allocations are separate from actual payments; existing Google Sheets sync is preserved"
   ]
 }
