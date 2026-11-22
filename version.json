@@ -1,9 +1,10 @@
 {
-  "version": "0.12.1",
+  "version": "0.12.2",
   "released": "2026-11-22",
   "notes": [
-    "Fixed Budget at a glance cards being squeezed into narrow columns",
-    "Budget summary now uses the full page width on desktop and responsive columns on mobile",
-    "Clickable summary cards and landlord contribution allocations remain available"
+    "Payments recorded on cost items are now clickable in the Financial Register",
+    "Tapping a grey item payment opens that cost item directly for review or editing",
+    "Standalone financial transactions remain readable in their detail view",
+    "No financial values or transaction records were changed"
   ]
 }
