@@ -1,10 +1,10 @@
 {
-  "version": "0.11.1",
+  "version": "0.11.2",
   "released": "2026-11-22",
   "notes": [
-    "All owner-supplied prices default to GST-inclusive",
-    "Existing supplier quotes explicitly excluding GST retain their original basis",
-    "Landlord contribution shown separately as $55,000 including GST, not yet received cash",
-    "Removed unnecessary GST confirmation warnings from budget"
+    "Removed the confusing manual transaction entry form and Save Transaction button",
+    "Financial Register now displays read-only payment and funding history",
+    "Payments for purchases or services are managed from Costs",
+    "Preserved all existing finance records, totals and Google Sheets synchronisation"
   ]
 }
