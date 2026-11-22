@@ -1,9 +1,10 @@
 {
-  "version": "0.12.6",
-  "released": "2026-11-22",
+  "version": "0.12.7",
+  "released": "2026-11-23",
   "notes": [
-    "Financial Register transaction details close using the X or by clicking outside the modal",
-    "Clicking inside the details does not close the modal",
-    "No financial information or payments changed"
+    "Home overview compacted for Galaxy S26 Ultra and similar mobile screen widths",
+    "Reduced mobile header and empty spacing above the overview",
+    "Tighter two-column dashboard tiles with readable numbers and tap targets",
+    "Adjusted bottom navigation spacing while preserving desktop and tablet layouts"
   ]
 }
