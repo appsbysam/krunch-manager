@@ -1,10 +1,10 @@
 {
-  "version": "0.12.2",
+  "version": "0.12.3",
   "released": "2026-11-22",
   "notes": [
-    "Payments recorded on cost items are now clickable in the Financial Register",
-    "Tapping a grey item payment opens that cost item directly for review or editing",
-    "Standalone financial transactions remain readable in their detail view",
-    "No financial values or transaction records were changed"
+    "All Financial Register rows now open the same read-only Transaction details window",
+    "Cost-item payments no longer open the Edit Item form from the register",
+    "Item payment details show their source and recorded payment status; dates are shown only when recorded",
+    "Editing purchase prices or payments remains in the Costs tab"
   ]
 }
