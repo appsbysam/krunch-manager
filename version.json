@@ -1,10 +1,9 @@
 {
-  "version": "0.11.2",
+  "version": "0.11.3",
   "released": "2026-11-22",
   "notes": [
-    "Removed the confusing manual transaction entry form and Save Transaction button",
-    "Financial Register now displays read-only payment and funding history",
-    "Payments for purchases or services are managed from Costs",
-    "Preserved all existing finance records, totals and Google Sheets synchronisation"
+    "Budget check lists now have clickable item names",
+    "Tap any unpriced item or flagged record to open its editor directly",
+    "Existing financial records, calculations and Google Sheets sync remain unchanged"
   ]
 }
