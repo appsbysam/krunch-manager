@@ -11,7 +11,7 @@ const KRUNCH = Object.freeze({
   recordsTab:"Project Records", newTab:"New Entries", syncGuide:"Sync Guide"
 });
 const ITEM_FIELDS = {
-  4:"item_name",5:"area",6:"subcategory",7:"assigned_to",
+  3:"item_kind",4:"item_name",5:"area",6:"subcategory",7:"assigned_to",
   8:"task_status",9:"purchase_status",10:"estimate",11:"actual",12:"supplier",13:"notes"
 };
 const TASK_STATUSES = ["Not started","In progress","Completed","Delayed"];
@@ -81,7 +81,7 @@ function krunchAllowEdits_(){
   if(!sheet)throw Error("Project Records tab missing.");
   const protections=sheet.getProtections(SpreadsheetApp.ProtectionType.SHEET);
   if(protections.length!==1)throw Error("Unexpected protected range layout. Review before unlocking.");
-  protections[0].setUnprotectedRanges([sheet.getRange("D2:M300")]);
+  protections[0].setUnprotectedRanges([sheet.getRange("C2:M300")]);
 }
 function krunchToken_(){
   const prop=PropertiesService.getScriptProperties(),p=prop.getProperties();
@@ -138,7 +138,7 @@ function krunchEditHandler(e){
   if(range.getRow()<2)return;
   if(range.getNumRows()!==1){SpreadsheetApp.openById(KRUNCH.spreadsheetId).toast("Multi-row paste is not synchronised. Use one row at a time.","Sync warning",10);return;}
   const first=range.getColumn(),last=range.getLastColumn();
-  if(first<4||last>13)return;
+  if(first<3||last>13)return;
   try{
     krunchLock_(()=>{
       if(krunchPaused_())return;
@@ -148,6 +148,7 @@ function krunchEditHandler(e){
       const changes={updated_at:new Date().toISOString()};
       for(let col=first;col<=last;col++){
         const field=ITEM_FIELDS[col];let value=values[col-1];
+        if(col===3&&!["Item","Task"].includes(value))throw Error("Invalid record type.");
         if(col===8&&kind!=="Task")throw Error("Task status applies only to tasks.");
         if(col===9&&kind!=="Item")throw Error("Purchase status applies only to items.");
         if(col===8&&!TASK_STATUSES.includes(value))throw Error("Invalid task status.");
@@ -156,6 +157,7 @@ function krunchEditHandler(e){
         if(col===4&&!String(value).trim())throw Error("Name cannot be blank.");
         changes[field]=value;
       }
+      if(Object.prototype.hasOwnProperty.call(changes,"item_kind")){if(kind==="Task"){changes.purchase_status="Not purchased";if(!TASK_STATUSES.includes(values[7]))changes.task_status="Not started";}else{changes.task_status="Not started";if(!PURCHASE_STATUSES.includes(values[8]))changes.purchase_status="Not yet purchased";}}
       const path="/rest/v1/krunch_manager_items?id=eq."+encodeURIComponent(id)+
         "&updated_at=eq."+encodeURIComponent(version);
       const updated=krunchRequest_(path,"patch",changes);
@@ -221,8 +223,9 @@ function krunchPause(){
     sh.protect().setDescription("KRUNCH batch baseline");
     sh.hideSheet();
     PropertiesService.getScriptProperties().setProperty("KRUNCH_PAUSED","1");
-    krunchAllowEdits_();
-    ss.toast("Paused. Edit Project Records D:M; do not add, delete or reorder records.");
+    const records=ss.getSheetByName(KRUNCH.recordsTab);
+    records.getProtections(SpreadsheetApp.ProtectionType.SHEET).forEach(p=>p.setUnprotectedRanges([records.getRange("A2:N300")]));
+    ss.toast("Paused. Edit C:M; sort entire rows A:N only. Do not alter IDs, references or timestamps.");
   });
 }
 function krunchBatchChanges_(){
@@ -234,16 +237,18 @@ function krunchBatchChanges_(){
   const changes=[];
   for(const r of rows){
     const b=map.get(String(r[0]));
-    if(!b||[1,2,13].some(i=>String(r[i])!==String(b[i])))throw Error("Locked fields changed. Restore them before submitting.");
+    if(!b||[1,13].some(i=>String(r[i])!==String(b[i])))throw Error("Locked fields changed. Restore them before submitting.");
     const patch={};
-    for(let c=4;c<=13;c++){
+    for(let c=3;c<=13;c++){
       let v=r[c-1];if(String(v)===String(b[c-1]))continue;
+      if(c===3&&!["Item","Task"].includes(v))throw Error("Invalid record type: "+r[3]);
       if(c===8&&(r[2]!=="Task"||!TASK_STATUSES.includes(v)))throw Error("Invalid task status: "+r[3]);
       if(c===9&&(r[2]!=="Item"||!PURCHASE_STATUSES.includes(v)))throw Error("Invalid purchase status: "+r[3]);
       if(c===10||c===11){v=Number(v);if(!Number.isFinite(v)||v<0)throw Error("Invalid amount: "+r[3]);}
       if(c===4&&!String(v).trim())throw Error("Blank item name.");
       patch[ITEM_FIELDS[c]]=v;
     }
+    if(Object.prototype.hasOwnProperty.call(patch,"item_kind")){if(r[2]==="Task"){patch.purchase_status="Not purchased";if(!TASK_STATUSES.includes(r[7]))patch.task_status="Not started";}else{patch.task_status="Not started";if(!PURCHASE_STATUSES.includes(r[8]))patch.purchase_status="Not yet purchased";}}
     if(Object.keys(patch).length)changes.push({id:String(r[0]),name:String(r[3]),version:String(b[13]),patch});
   }
   return changes;
@@ -275,7 +280,9 @@ function krunchSubmitBatch(){
         for(const [c,f] of Object.entries(ITEM_FIELDS))if(Object.prototype.hasOwnProperty.call(x.patch,f))old[Number(c)-1]=x.patch[f];
         old[13]=updated[0].updated_at;
         baseline.getRange(br,1,1,14).setValues([old.map(v=>typeof v==="string"&&v.startsWith("=")?"'"+v:v)]);
-        records.getRange(rr,14).setValue(old[13]);done++;
+        records.getRange(rr,14).setValue(old[13]);
+        for(const [c,f] of Object.entries(ITEM_FIELDS))if(Object.prototype.hasOwnProperty.call(x.patch,f)){const v=x.patch[f];records.getRange(rr,Number(c)).setValue(typeof v==="string"&&v.startsWith("=")?"\u0027"+v:v);}
+        done++;
       }catch(e){throw Error(done+" records submitted; remaining changes stay paused. "+x.name+": "+e.message);}
     }
     ss.toast(done+" records submitted. Still paused; resume when ready.");
@@ -288,6 +295,7 @@ function krunchResume(){
     const ss=SpreadsheetApp.openById(KRUNCH.spreadsheetId),sh=krunchBatchSheet_();
     PropertiesService.getScriptProperties().deleteProperty("KRUNCH_PAUSED");
     try{krunchPullUnsafe_();}catch(e){PropertiesService.getScriptProperties().setProperty("KRUNCH_PAUSED","1");throw e;}
+    krunchAllowEdits_();
     ss.deleteSheet(sh);
     ss.toast("Automatic synchronisation resumed.");
   });
