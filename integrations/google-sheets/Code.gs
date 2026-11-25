@@ -20,7 +20,10 @@ const PURCHASE_STATUSES = ["Not yet purchased","Wishlist","Researching","Being q
 function onOpen() {
   SpreadsheetApp.getUi().createMenu("KRUNCH Sync")
     .addItem("Connect my KRUNCH account","krunchConnectDialog")
-    .addItem("Refresh Project Records","krunchPull")
+    .addItem("Pause synchronisation","krunchPause")
+    .addItem("Review & submit changes","krunchSubmitBatch")
+    .addItem("Resume synchronisation","krunchResume")
+    .addSeparator().addItem("Refresh Project Records","krunchPull")
     .addItem("Submit New Entries","krunchSubmitNewEntries")
     .addSeparator().addItem("Disconnect automatic sync","krunchDisconnect")
     .addToUi();
@@ -39,6 +42,7 @@ function krunchConnectDialog(){
   SpreadsheetApp.getUi().showModalDialog(html,"KRUNCH connection");
 }
 function krunchAuthorise(email,password){
+  if(krunchPaused_())throw Error("Batch editing is paused. Submit or resume the batch first; reconnecting could overwrite changes.");
   if(!email||!password)throw Error("Email and password are required.");
   const r=UrlFetchApp.fetch(KRUNCH.api+"/auth/v1/token?grant_type=password",{
     method:"post",contentType:"application/json",headers:{"apikey":KRUNCH.publishableKey},
@@ -63,6 +67,7 @@ function krunchAuthorise(email,password){
   return "Connected. Project Records will refresh about every five minutes; approved cell edits sync immediately.";
 }
 function krunchDisconnect(){
+  if(krunchPaused_())throw Error("Finish the paused batch before disconnecting.");
   ScriptApp.getProjectTriggers().filter(t=>["krunchEditHandler","krunchPull"].includes(t.getHandlerFunction())).forEach(ScriptApp.deleteTrigger);
   PropertiesService.getScriptProperties().deleteAllProperties();
   const sheet=SpreadsheetApp.openById(KRUNCH.spreadsheetId).getSheetByName(KRUNCH.recordsTab);
@@ -111,6 +116,7 @@ function krunchPull(){
   return krunchLock_(()=>krunchPullUnsafe_());
 }
 function krunchPullUnsafe_(){
+  if(krunchPaused_())return 0;
   const rows=krunchRequest_("/rest/v1/krunch_manager_items?select=*&order=created_at.asc&limit=1000","get");
   const sheet=SpreadsheetApp.openById(KRUNCH.spreadsheetId).getSheetByName(KRUNCH.recordsTab);
   if(!sheet)throw Error("Project Records tab missing.");
@@ -135,6 +141,7 @@ function krunchEditHandler(e){
   if(first<4||last>13)return;
   try{
     krunchLock_(()=>{
+      if(krunchPaused_())return;
       const sheet=range.getSheet(),row=range.getRow();
       const values=sheet.getRange(row,1,1,14).getValues()[0],id=values[0],version=values[13],kind=values[2];
       if(!/^[0-9a-f-]{36}$/i.test(String(id)))throw Error("Missing valid database record ID.");
@@ -160,6 +167,7 @@ function krunchEditHandler(e){
 }
 function krunchSubmitNewEntries(){
   return krunchLock_(()=>{
+    if(krunchPaused_())throw Error("Finish the paused batch before submitting new entries.");
     const sheet=SpreadsheetApp.openById(KRUNCH.spreadsheetId).getSheetByName(KRUNCH.newTab);
     if(!sheet)throw Error("New Entries tab missing.");
     const values=sheet.getRange(2,1,Math.max(sheet.getLastRow()-1,1),9).getValues();
@@ -190,4 +198,97 @@ function krunchLogError_(row,message,values){
   let sheet=ss.getSheetByName("Sync Errors");
   if(!sheet){sheet=ss.insertSheet("Sync Errors");sheet.appendRow(["Time","Source row","Reason","Attempted values"]);}
   sheet.appendRow([new Date(),row,message,JSON.stringify(values)]);
+}
+
+/** Batch mode: shared pause flag and durable baseline, no automatic pull while paused. */
+function krunchPaused_(){return PropertiesService.getScriptProperties().getProperty("KRUNCH_PAUSED")==="1";}
+function krunchBatchSheet_(){return SpreadsheetApp.openById(KRUNCH.spreadsheetId).getSheetByName("_KRUNCH Batch Baseline");}
+function krunchRecordRows_(){
+  const sh=SpreadsheetApp.openById(KRUNCH.spreadsheetId).getSheetByName(KRUNCH.recordsTab);
+  return sh.getRange(2,1,Math.max(1,sh.getLastRow()-1),14).getValues().filter(r=>r[0]);
+}
+function krunchPause(){
+  krunchLock_(()=>{
+    if(krunchPaused_())throw Error("Already paused.");
+    krunchToken_();
+    const ss=SpreadsheetApp.openById(KRUNCH.spreadsheetId);
+    if(krunchBatchSheet_())throw Error("An existing batch baseline needs review; do not overwrite it.");
+    krunchPullUnsafe_();
+    const rows=krunchRecordRows_();
+    const sh=ss.insertSheet("_KRUNCH Batch Baseline");
+    sh.getRange(1,1,1,14).setValues([["ID","Reference","Type","Name","Area","Category","Owner","Task status","Purchase status","Estimate","Actual","Supplier","Notes","Updated"]]);
+    if(rows.length)sh.getRange(2,1,rows.length,14).setValues(rows.map(r=>r.map(v=>typeof v==="string"&&v.startsWith("=")?"'"+v:v)));
+    sh.protect().setDescription("KRUNCH batch baseline");
+    sh.hideSheet();
+    PropertiesService.getScriptProperties().setProperty("KRUNCH_PAUSED","1");
+    krunchAllowEdits_();
+    ss.toast("Paused. Edit Project Records D:M; do not add, delete or reorder records.");
+  });
+}
+function krunchBatchChanges_(){
+  const sh=krunchBatchSheet_();
+  if(!krunchPaused_()||!sh)throw Error("No paused batch.");
+  const base=sh.getRange(2,1,Math.max(1,sh.getLastRow()-1),14).getValues().filter(r=>r[0]);
+  const rows=krunchRecordRows_(), map=new Map(base.map(r=>[String(r[0]),r]));
+  if(rows.length!==base.length||new Set(rows.map(r=>String(r[0]))).size!==base.length)throw Error("Record IDs or row count changed. Restore the original records before submitting.");
+  const changes=[];
+  for(const r of rows){
+    const b=map.get(String(r[0]));
+    if(!b||[1,2,13].some(i=>String(r[i])!==String(b[i])))throw Error("Locked fields changed. Restore them before submitting.");
+    const patch={};
+    for(let c=4;c<=13;c++){
+      let v=r[c-1];if(String(v)===String(b[c-1]))continue;
+      if(c===8&&(r[2]!=="Task"||!TASK_STATUSES.includes(v)))throw Error("Invalid task status: "+r[3]);
+      if(c===9&&(r[2]!=="Item"||!PURCHASE_STATUSES.includes(v)))throw Error("Invalid purchase status: "+r[3]);
+      if(c===10||c===11){v=Number(v);if(!Number.isFinite(v)||v<0)throw Error("Invalid amount: "+r[3]);}
+      if(c===4&&!String(v).trim())throw Error("Blank item name.");
+      patch[ITEM_FIELDS[c]]=v;
+    }
+    if(Object.keys(patch).length)changes.push({id:String(r[0]),name:String(r[3]),version:String(b[13]),patch});
+  }
+  return changes;
+}
+function krunchSubmitBatch(){
+  const ui=SpreadsheetApp.getUi();
+  const changes=krunchLock_(()=>krunchBatchChanges_());
+  if(!changes.length){ui.alert("No pending changes.");return;}
+  const signature=JSON.stringify(changes);
+  const preview=changes.slice(0,20).map(x=>x.name+": "+Object.keys(x.patch).join(", ")).join("\n");
+  if(ui.alert("Submit "+changes.length+" changed records?",preview+(changes.length>20?"\n…and more":""),ui.ButtonSet.YES_NO)!==ui.Button.YES)return;
+  krunchLock_(()=>{
+    const pending=krunchBatchChanges_();
+    if(JSON.stringify(pending)!==signature)throw Error("The batch changed during review. Review again.");
+    const remote=krunchRequest_("/rest/v1/krunch_manager_items?select=id,updated_at&limit=1000","get");
+    const versions=new Map(remote.map(x=>[x.id,String(x.updated_at)]));
+    const conflicts=pending.filter(x=>versions.get(x.id)!==x.version);
+    if(conflicts.length)throw Error("No changes submitted. Database conflicts: "+conflicts.map(x=>x.name).join(", "));
+    const ss=SpreadsheetApp.openById(KRUNCH.spreadsheetId),baseline=krunchBatchSheet_(),records=ss.getSheetByName(KRUNCH.recordsTab);
+    let done=0;
+    for(const x of pending){
+      const path="/rest/v1/krunch_manager_items?id=eq."+encodeURIComponent(x.id)+"&updated_at=eq."+encodeURIComponent(x.version);
+      try{
+        const updated=krunchRequest_(path,"patch",Object.assign({},x.patch,{updated_at:new Date().toISOString()}));
+        if(updated.length!==1)throw Error("Concurrent update conflict.");
+        const br=baseline.getRange(2,1,baseline.getLastRow()-1,1).getValues().findIndex(r=>String(r[0])===x.id)+2;
+        const rr=records.getRange(2,1,records.getLastRow()-1,1).getValues().findIndex(r=>String(r[0])===x.id)+2;
+        const old=baseline.getRange(br,1,1,14).getValues()[0];
+        for(const [c,f] of Object.entries(ITEM_FIELDS))if(Object.prototype.hasOwnProperty.call(x.patch,f))old[Number(c)-1]=x.patch[f];
+        old[13]=updated[0].updated_at;
+        baseline.getRange(br,1,1,14).setValues([old.map(v=>typeof v==="string"&&v.startsWith("=")?"'"+v:v)]);
+        records.getRange(rr,14).setValue(old[13]);done++;
+      }catch(e){throw Error(done+" records submitted; remaining changes stay paused. "+x.name+": "+e.message);}
+    }
+    ss.toast(done+" records submitted. Still paused; resume when ready.");
+  });
+}
+function krunchResume(){
+  krunchLock_(()=>{
+    if(!krunchPaused_())throw Error("Not paused.");
+    if(krunchBatchChanges_().length)throw Error("Pending edits exist. Review & submit changes before resuming.");
+    const ss=SpreadsheetApp.openById(KRUNCH.spreadsheetId),sh=krunchBatchSheet_();
+    PropertiesService.getScriptProperties().deleteProperty("KRUNCH_PAUSED");
+    try{krunchPullUnsafe_();}catch(e){PropertiesService.getScriptProperties().setProperty("KRUNCH_PAUSED","1");throw e;}
+    ss.deleteSheet(sh);
+    ss.toast("Automatic synchronisation resumed.");
+  });
 }
